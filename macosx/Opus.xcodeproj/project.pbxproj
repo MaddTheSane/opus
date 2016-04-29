@@ -1637,6 +1637,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 556C3F3A1B79495E00D2CDDA /* DebugConfigs.xcconfig */;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
@@ -1668,6 +1669,7 @@
 			baseConfigurationReference = 556C3F391B79495E00D2CDDA /* DefaultConfigs.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
