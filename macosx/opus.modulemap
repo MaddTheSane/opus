@@ -1,0 +1,26 @@
+framework module Opus {
+	umbrella header "opus.h"
+	
+	export *
+	module * { export * }
+	
+	module Custom {
+		header "opus_custom.h"
+		export *
+	}
+	
+	module Defines {
+		header "opus_defines.h"
+		export *
+	}
+	
+	module Types {
+		header "opus_types.h"
+		export *
+	}
+	
+	explicit module Multistream {
+		header "opus_multistream.h"
+		export *
+	}
+}

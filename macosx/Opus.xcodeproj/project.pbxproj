@@ -415,6 +415,7 @@
 /* Begin PBXFileReference section */
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32BAE0B70371A74B00C91783 /* Opus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opus_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		5530E5F81CD3D01500071A6D /* opus.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = opus.modulemap; sourceTree = "<group>"; };
 		555F0EDC1B9774B50018CB49 /* opus_custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_custom.h; sourceTree = "<group>"; };
 		555F0EDD1B9774B50018CB49 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
 		555F0EDE1B9774B50018CB49 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
@@ -721,6 +722,7 @@
 			children = (
 				8D07F2C70486CC7A007CD1D0 /* Info.plist */,
 				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				5530E5F81CD3D01500071A6D /* opus.modulemap */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1604,6 +1606,7 @@
 				GCC_PREFIX_HEADER = Opus_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Library/Frameworks;
+				MODULEMAP_FILE = opus.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.opus;
 				PRODUCT_NAME = Opus;
 				WRAPPER_EXTENSION = framework;
@@ -1626,6 +1629,7 @@
 				GCC_PREFIX_HEADER = Opus_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Library/Frameworks;
+				MODULEMAP_FILE = opus.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.opus;
 				PRODUCT_NAME = Opus;
 				WRAPPER_EXTENSION = framework;
