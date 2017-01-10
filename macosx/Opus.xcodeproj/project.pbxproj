@@ -404,6 +404,34 @@
 		55C7FDB41B97782A00B0C093 /* VQ_WMat_EC.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FBE61B97782900B0C093 /* VQ_WMat_EC.c */; };
 		55FD17651E254A7D00DA416D /* LPC_fit.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17641E254A7D00DA416D /* LPC_fit.c */; };
 		55FD17661E254A7D00DA416D /* LPC_fit.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17641E254A7D00DA416D /* LPC_fit.c */; };
+		55FD176F1E254D3300DA416D /* main_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17681E254D3300DA416D /* main_sse.h */; };
+		55FD17701E254D3300DA416D /* main_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17681E254D3300DA416D /* main_sse.h */; };
+		55FD17751E254D3300DA416D /* SigProc_FIX_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD176B1E254D3300DA416D /* SigProc_FIX_sse.h */; };
+		55FD17761E254D3300DA416D /* SigProc_FIX_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD176B1E254D3300DA416D /* SigProc_FIX_sse.h */; };
+		55FD17771E254D3300DA416D /* VAD_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD176C1E254D3300DA416D /* VAD_sse.c */; };
+		55FD17781E254D3300DA416D /* VAD_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD176C1E254D3300DA416D /* VAD_sse.c */; };
+		55FD177B1E254D3300DA416D /* x86_silk_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD176E1E254D3300DA416D /* x86_silk_map.c */; };
+		55FD177C1E254D3300DA416D /* x86_silk_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD176E1E254D3300DA416D /* x86_silk_map.c */; };
+		55FD17871E254D7800DA416D /* celt_lpc_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD177D1E254D7800DA416D /* celt_lpc_sse.c */; };
+		55FD17881E254D7800DA416D /* celt_lpc_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD177D1E254D7800DA416D /* celt_lpc_sse.c */; };
+		55FD17891E254D7800DA416D /* celt_lpc_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD177E1E254D7800DA416D /* celt_lpc_sse.h */; };
+		55FD178A1E254D7800DA416D /* celt_lpc_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD177E1E254D7800DA416D /* celt_lpc_sse.h */; };
+		55FD178B1E254D7800DA416D /* pitch_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD177F1E254D7800DA416D /* pitch_sse.c */; };
+		55FD178C1E254D7800DA416D /* pitch_sse.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD177F1E254D7800DA416D /* pitch_sse.c */; };
+		55FD178D1E254D7800DA416D /* pitch_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17801E254D7800DA416D /* pitch_sse2.c */; };
+		55FD178E1E254D7800DA416D /* pitch_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17801E254D7800DA416D /* pitch_sse2.c */; };
+		55FD178F1E254D7800DA416D /* pitch_sse4_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17811E254D7800DA416D /* pitch_sse4_1.c */; };
+		55FD17901E254D7800DA416D /* pitch_sse4_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17811E254D7800DA416D /* pitch_sse4_1.c */; };
+		55FD17911E254D7800DA416D /* vq_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17821E254D7800DA416D /* vq_sse.h */; };
+		55FD17921E254D7800DA416D /* vq_sse.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17821E254D7800DA416D /* vq_sse.h */; };
+		55FD17931E254D7800DA416D /* vq_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17831E254D7800DA416D /* vq_sse2.c */; };
+		55FD17941E254D7800DA416D /* vq_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17831E254D7800DA416D /* vq_sse2.c */; };
+		55FD17951E254D7800DA416D /* x86_celt_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17841E254D7800DA416D /* x86_celt_map.c */; };
+		55FD17961E254D7800DA416D /* x86_celt_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17841E254D7800DA416D /* x86_celt_map.c */; };
+		55FD17971E254D7800DA416D /* x86cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17851E254D7800DA416D /* x86cpu.c */; };
+		55FD17981E254D7800DA416D /* x86cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17851E254D7800DA416D /* x86cpu.c */; };
+		55FD17991E254D7800DA416D /* x86cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17861E254D7800DA416D /* x86cpu.h */; };
+		55FD179A1E254D7800DA416D /* x86cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17861E254D7800DA416D /* x86cpu.h */; };
 		8D07F2BE0486CC7A007CD1D0 /* Opus_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* Opus_Prefix.pch */; };
 		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -658,6 +686,23 @@
 		55C7FBE51B97782900B0C093 /* VAD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VAD.c; sourceTree = "<group>"; };
 		55C7FBE61B97782900B0C093 /* VQ_WMat_EC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VQ_WMat_EC.c; sourceTree = "<group>"; };
 		55FD17641E254A7D00DA416D /* LPC_fit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LPC_fit.c; sourceTree = "<group>"; };
+		55FD17681E254D3300DA416D /* main_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_sse.h; sourceTree = "<group>"; };
+		55FD17691E254D3300DA416D /* NSQ_del_dec_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSQ_del_dec_sse.c; sourceTree = "<group>"; };
+		55FD176A1E254D3300DA416D /* NSQ_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSQ_sse.c; sourceTree = "<group>"; };
+		55FD176B1E254D3300DA416D /* SigProc_FIX_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigProc_FIX_sse.h; sourceTree = "<group>"; };
+		55FD176C1E254D3300DA416D /* VAD_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VAD_sse.c; sourceTree = "<group>"; };
+		55FD176D1E254D3300DA416D /* VQ_WMat_EC_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VQ_WMat_EC_sse.c; sourceTree = "<group>"; };
+		55FD176E1E254D3300DA416D /* x86_silk_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x86_silk_map.c; sourceTree = "<group>"; };
+		55FD177D1E254D7800DA416D /* celt_lpc_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = celt_lpc_sse.c; sourceTree = "<group>"; };
+		55FD177E1E254D7800DA416D /* celt_lpc_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = celt_lpc_sse.h; sourceTree = "<group>"; };
+		55FD177F1E254D7800DA416D /* pitch_sse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pitch_sse.c; sourceTree = "<group>"; };
+		55FD17801E254D7800DA416D /* pitch_sse2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pitch_sse2.c; sourceTree = "<group>"; };
+		55FD17811E254D7800DA416D /* pitch_sse4_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pitch_sse4_1.c; sourceTree = "<group>"; };
+		55FD17821E254D7800DA416D /* vq_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vq_sse.h; sourceTree = "<group>"; };
+		55FD17831E254D7800DA416D /* vq_sse2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vq_sse2.c; sourceTree = "<group>"; };
+		55FD17841E254D7800DA416D /* x86_celt_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x86_celt_map.c; sourceTree = "<group>"; };
+		55FD17851E254D7800DA416D /* x86cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x86cpu.c; sourceTree = "<group>"; };
+		55FD17861E254D7800DA416D /* x86cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x86cpu.h; sourceTree = "<group>"; };
 		734FB2E50B18B33E00D561D7 /* libopus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D07F2C70486CC7A007CD1D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D07F2C80486CC7A007CD1D0 /* Opus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Opus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -839,7 +884,17 @@
 		55C7FB401B97782900B0C093 /* x86 */ = {
 			isa = PBXGroup;
 			children = (
+				55FD177D1E254D7800DA416D /* celt_lpc_sse.c */,
+				55FD177E1E254D7800DA416D /* celt_lpc_sse.h */,
+				55FD177F1E254D7800DA416D /* pitch_sse.c */,
 				55C7FB411B97782900B0C093 /* pitch_sse.h */,
+				55FD17801E254D7800DA416D /* pitch_sse2.c */,
+				55FD17811E254D7800DA416D /* pitch_sse4_1.c */,
+				55FD17821E254D7800DA416D /* vq_sse.h */,
+				55FD17831E254D7800DA416D /* vq_sse2.c */,
+				55FD17841E254D7800DA416D /* x86_celt_map.c */,
+				55FD17851E254D7800DA416D /* x86cpu.c */,
+				55FD17861E254D7800DA416D /* x86cpu.h */,
 			);
 			path = x86;
 			sourceTree = "<group>";
@@ -847,6 +902,7 @@
 		55C7FB421B97782900B0C093 /* silk */ = {
 			isa = PBXGroup;
 			children = (
+				55FD17671E254D3300DA416D /* x86 */,
 				55C7FB431B97782900B0C093 /* A2NLSF.c */,
 				55C7FB441B97782900B0C093 /* ana_filt_bank_1.c */,
 				55C7FB451B97782900B0C093 /* API.h */,
@@ -1034,6 +1090,20 @@
 			path = float;
 			sourceTree = "<group>";
 		};
+		55FD17671E254D3300DA416D /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				55FD17681E254D3300DA416D /* main_sse.h */,
+				55FD17691E254D3300DA416D /* NSQ_del_dec_sse.c */,
+				55FD176A1E254D3300DA416D /* NSQ_sse.c */,
+				55FD176B1E254D3300DA416D /* SigProc_FIX_sse.h */,
+				55FD176C1E254D3300DA416D /* VAD_sse.c */,
+				55FD176D1E254D3300DA416D /* VQ_WMat_EC_sse.c */,
+				55FD176E1E254D3300DA416D /* x86_silk_map.c */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
 		730F235F09181A3E00AB638C /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1054,7 +1124,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FD178A1E254D7800DA416D /* celt_lpc_sse.h in Headers */,
 				55C7FC8E1B97782A00B0C093 /* control.h in Headers */,
+				55FD17921E254D7800DA416D /* vq_sse.h in Headers */,
 				55C7FADC1B9777BB00B0C093 /* mlp.h in Headers */,
 				55C7FC5A1B97782900B0C093 /* static_modes_fixed.h in Headers */,
 				55C7FD0E1B97782A00B0C093 /* main_FLP.h in Headers */,
@@ -1065,6 +1137,7 @@
 				55C7FD681B97782A00B0C093 /* PLC.h in Headers */,
 				55C7FD9E1B97782A00B0C093 /* tables.h in Headers */,
 				55C7FDAE1B97782A00B0C093 /* tuning_parameters.h in Headers */,
+				55FD17761E254D3300DA416D /* SigProc_FIX_sse.h in Headers */,
 				55C7FC021B97782900B0C093 /* bands.h in Headers */,
 				55C7FD481B97782A00B0C093 /* MacroDebug.h in Headers */,
 				55C7FD4A1B97782A00B0C093 /* macros.h in Headers */,
@@ -1089,6 +1162,7 @@
 				55C7FC721B97782900B0C093 /* pitch_sse.h in Headers */,
 				55C7FC981B97782A00B0C093 /* debug.h in Headers */,
 				55C7FC4A1B97782900B0C093 /* os_support.h in Headers */,
+				55FD179A1E254D7800DA416D /* x86cpu.h in Headers */,
 				55C7FC4E1B97782900B0C093 /* pitch.h in Headers */,
 				55C7FC421B97782900B0C093 /* mfrngcod.h in Headers */,
 				55C7FD461B97782A00B0C093 /* MacroCount.h in Headers */,
@@ -1103,6 +1177,7 @@
 				55C7FC461B97782900B0C093 /* modes.h in Headers */,
 				55C7FC061B97782900B0C093 /* celt.h in Headers */,
 				55C7FBFE1B97782900B0C093 /* pitch_arm.h in Headers */,
+				55FD17701E254D3300DA416D /* main_sse.h in Headers */,
 				55C7FC3C1B97782900B0C093 /* mathops.h in Headers */,
 				55C7FC521B97782900B0C093 /* quant_bands.h in Headers */,
 				55C7FBF11B97782900B0C093 /* armcpu.h in Headers */,
@@ -1126,7 +1201,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FD17891E254D7800DA416D /* celt_lpc_sse.h in Headers */,
 				55C7FC8D1B97782A00B0C093 /* control.h in Headers */,
+				55FD17911E254D7800DA416D /* vq_sse.h in Headers */,
 				55C7FDAD1B97782A00B0C093 /* tuning_parameters.h in Headers */,
 				55C7FBE91B97782900B0C093 /* arch.h in Headers */,
 				55C7FC191B97782900B0C093 /* ecintrin.h in Headers */,
@@ -1137,6 +1214,7 @@
 				55C7FD471B97782A00B0C093 /* MacroDebug.h in Headers */,
 				55C7FD211B97782A00B0C093 /* SigProc_FLP.h in Headers */,
 				55C7FC251B97782900B0C093 /* entenc.h in Headers */,
+				55FD17751E254D3300DA416D /* SigProc_FIX_sse.h in Headers */,
 				55C7FC1D1B97782900B0C093 /* entcode.h in Headers */,
 				55C7FC551B97782900B0C093 /* rate.h in Headers */,
 				55C7FD611B97782A00B0C093 /* pitch_est_defines.h in Headers */,
@@ -1161,6 +1239,7 @@
 				55C7FC0F1B97782900B0C093 /* cpu_support.h in Headers */,
 				55C7FC131B97782900B0C093 /* cwrs.h in Headers */,
 				55C7FC411B97782900B0C093 /* mfrngcod.h in Headers */,
+				55FD17991E254D7800DA416D /* x86cpu.h in Headers */,
 				555F0EE11B9774B50018CB49 /* opus_custom.h in Headers */,
 				55C7FCB11B97782A00B0C093 /* errors.h in Headers */,
 				55C7FD9D1B97782A00B0C093 /* tables.h in Headers */,
@@ -1175,6 +1254,7 @@
 				55C7FC4D1B97782900B0C093 /* pitch.h in Headers */,
 				55C7FAD11B9777BB00B0C093 /* analysis.h in Headers */,
 				55C7FC291B97782900B0C093 /* fixed_c6x.h in Headers */,
+				55FD176F1E254D3300DA416D /* main_sse.h in Headers */,
 				55C7FD0D1B97782A00B0C093 /* main_FLP.h in Headers */,
 				55C7FC3B1B97782900B0C093 /* mathops.h in Headers */,
 				55C7FAF31B9777BB00B0C093 /* tansig_table.h in Headers */,
@@ -1307,6 +1387,7 @@
 				55C7FDAA1B97782A00B0C093 /* tables_pitch_lag.c in Sources */,
 				55C7FCEA1B97782A00B0C093 /* apply_sine_window_FLP.c in Sources */,
 				55C7FD761B97782A00B0C093 /* resampler_private_AR2.c in Sources */,
+				55FD178C1E254D7800DA416D /* pitch_sse.c in Sources */,
 				55C7FCFC1B97782A00B0C093 /* find_pitch_lags_FLP.c in Sources */,
 				55C7FC741B97782900B0C093 /* A2NLSF.c in Sources */,
 				55FD17661E254A7D00DA416D /* LPC_fit.c in Sources */,
@@ -1323,6 +1404,7 @@
 				55C7FC8A1B97782A00B0C093 /* CNG.c in Sources */,
 				55C7FCAE1B97782A00B0C093 /* encode_indices.c in Sources */,
 				55C7FC3A1B97782900B0C093 /* mathops.c in Sources */,
+				55FD17781E254D3300DA416D /* VAD_sse.c in Sources */,
 				55C7FD101B97782A00B0C093 /* noise_shape_analysis_FLP.c in Sources */,
 				55C7FC0C1B97782900B0C093 /* celt_lpc.c in Sources */,
 				55C7FC901B97782A00B0C093 /* control_audio_bandwidth.c in Sources */,
@@ -1352,6 +1434,7 @@
 				55C7FD8E1B97782A00B0C093 /* stereo_encode_pred.c in Sources */,
 				55C7FD381B97782A00B0C093 /* inner_prod_aligned.c in Sources */,
 				55C7FDA01B97782A00B0C093 /* tables_gain.c in Sources */,
+				55FD177C1E254D3300DA416D /* x86_silk_map.c in Sources */,
 				55C7FD701B97782A00B0C093 /* resampler_down2.c in Sources */,
 				55C7FC921B97782A00B0C093 /* control_codec.c in Sources */,
 				55C7FD7C1B97782A00B0C093 /* resampler_private_up2_HQ.c in Sources */,
@@ -1361,6 +1444,7 @@
 				55C7FC121B97782900B0C093 /* cwrs.c in Sources */,
 				55C7FC041B97782900B0C093 /* celt.c in Sources */,
 				55C7FC761B97782900B0C093 /* ana_filt_bank_1.c in Sources */,
+				55FD17961E254D7800DA416D /* x86_celt_map.c in Sources */,
 				55C7FD7A1B97782A00B0C093 /* resampler_private_IIR_FIR.c in Sources */,
 				55C7FD721B97782A00B0C093 /* resampler_down2_3.c in Sources */,
 				55C7FD0C1B97782A00B0C093 /* LTP_scale_ctrl_FLP.c in Sources */,
@@ -1379,6 +1463,7 @@
 				55C7FD7E1B97782A00B0C093 /* resampler_rom.c in Sources */,
 				55C7FC0A1B97782900B0C093 /* celt_encoder.c in Sources */,
 				55C7FD001B97782A00B0C093 /* inner_product_FLP.c in Sources */,
+				55FD17981E254D7800DA416D /* x86cpu.c in Sources */,
 				55C7FD961B97782A00B0C093 /* stereo_quant_pred.c in Sources */,
 				55C7FD0A1B97782A00B0C093 /* LTP_analysis_filter_FLP.c in Sources */,
 				55C7FADA1B9777BB00B0C093 /* mlp.c in Sources */,
@@ -1398,6 +1483,7 @@
 				55C7FD9A1B97782A00B0C093 /* sum_sqr_shift.c in Sources */,
 				55C7FD841B97782A00B0C093 /* shell_coder.c in Sources */,
 				55C7FC821B97782900B0C093 /* biquad_alt.c in Sources */,
+				55FD17901E254D7800DA416D /* pitch_sse4_1.c in Sources */,
 				55C7FD1A1B97782A00B0C093 /* residual_energy_FLP.c in Sources */,
 				55C7FAE01B9777BB00B0C093 /* opus_decoder.c in Sources */,
 				55C7FD781B97782A00B0C093 /* resampler_private_down_FIR.c in Sources */,
@@ -1409,6 +1495,7 @@
 				55C7FD8A1B97782A00B0C093 /* sort.c in Sources */,
 				55C7FAE81B9777BB00B0C093 /* opus_multistream_encoder.c in Sources */,
 				5530E5421CD3390D00071A6D /* opus_compare.c in Sources */,
+				55FD17881E254D7800DA416D /* celt_lpc_sse.c in Sources */,
 				55C7FDA61B97782A00B0C093 /* tables_NLSF_CB_WB.c in Sources */,
 				55C7FC6E1B97782900B0C093 /* vq.c in Sources */,
 				55C7FD1C1B97782A00B0C093 /* scale_copy_vector_FLP.c in Sources */,
@@ -1420,6 +1507,8 @@
 				55C7FDA41B97782A00B0C093 /* tables_NLSF_CB_NB_MB.c in Sources */,
 				55C7FD3A1B97782A00B0C093 /* interpolate.c in Sources */,
 				55C7FD2A1B97782A00B0C093 /* warped_autocorrelation_FLP.c in Sources */,
+				55FD17941E254D7800DA416D /* vq_sse2.c in Sources */,
+				55FD178E1E254D7800DA416D /* pitch_sse2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1448,6 +1537,7 @@
 				55C7FDA91B97782A00B0C093 /* tables_pitch_lag.c in Sources */,
 				55C7FCE91B97782A00B0C093 /* apply_sine_window_FLP.c in Sources */,
 				55C7FD751B97782A00B0C093 /* resampler_private_AR2.c in Sources */,
+				55FD178B1E254D7800DA416D /* pitch_sse.c in Sources */,
 				55C7FCFB1B97782A00B0C093 /* find_pitch_lags_FLP.c in Sources */,
 				55C7FC731B97782900B0C093 /* A2NLSF.c in Sources */,
 				55FD17651E254A7D00DA416D /* LPC_fit.c in Sources */,
@@ -1464,6 +1554,7 @@
 				55C7FC891B97782A00B0C093 /* CNG.c in Sources */,
 				55C7FCAD1B97782A00B0C093 /* encode_indices.c in Sources */,
 				55C7FC391B97782900B0C093 /* mathops.c in Sources */,
+				55FD17771E254D3300DA416D /* VAD_sse.c in Sources */,
 				55C7FD0F1B97782A00B0C093 /* noise_shape_analysis_FLP.c in Sources */,
 				55C7FC0B1B97782900B0C093 /* celt_lpc.c in Sources */,
 				55C7FC8F1B97782A00B0C093 /* control_audio_bandwidth.c in Sources */,
@@ -1493,6 +1584,7 @@
 				55C7FD8D1B97782A00B0C093 /* stereo_encode_pred.c in Sources */,
 				55C7FD371B97782A00B0C093 /* inner_prod_aligned.c in Sources */,
 				55C7FD9F1B97782A00B0C093 /* tables_gain.c in Sources */,
+				55FD177B1E254D3300DA416D /* x86_silk_map.c in Sources */,
 				55C7FD6F1B97782A00B0C093 /* resampler_down2.c in Sources */,
 				55C7FC911B97782A00B0C093 /* control_codec.c in Sources */,
 				55C7FD7B1B97782A00B0C093 /* resampler_private_up2_HQ.c in Sources */,
@@ -1502,6 +1594,7 @@
 				55C7FC111B97782900B0C093 /* cwrs.c in Sources */,
 				55C7FC031B97782900B0C093 /* celt.c in Sources */,
 				55C7FC751B97782900B0C093 /* ana_filt_bank_1.c in Sources */,
+				55FD17951E254D7800DA416D /* x86_celt_map.c in Sources */,
 				55C7FD791B97782A00B0C093 /* resampler_private_IIR_FIR.c in Sources */,
 				55C7FD711B97782A00B0C093 /* resampler_down2_3.c in Sources */,
 				55C7FD0B1B97782A00B0C093 /* LTP_scale_ctrl_FLP.c in Sources */,
@@ -1520,6 +1613,7 @@
 				55C7FD7D1B97782A00B0C093 /* resampler_rom.c in Sources */,
 				55C7FC091B97782900B0C093 /* celt_encoder.c in Sources */,
 				55C7FCFF1B97782A00B0C093 /* inner_product_FLP.c in Sources */,
+				55FD17971E254D7800DA416D /* x86cpu.c in Sources */,
 				55C7FD951B97782A00B0C093 /* stereo_quant_pred.c in Sources */,
 				55C7FD091B97782A00B0C093 /* LTP_analysis_filter_FLP.c in Sources */,
 				55C7FAD91B9777BB00B0C093 /* mlp.c in Sources */,
@@ -1539,6 +1633,7 @@
 				55C7FD991B97782A00B0C093 /* sum_sqr_shift.c in Sources */,
 				55C7FD831B97782A00B0C093 /* shell_coder.c in Sources */,
 				55C7FC811B97782900B0C093 /* biquad_alt.c in Sources */,
+				55FD178F1E254D7800DA416D /* pitch_sse4_1.c in Sources */,
 				55C7FD191B97782A00B0C093 /* residual_energy_FLP.c in Sources */,
 				55C7FADF1B9777BB00B0C093 /* opus_decoder.c in Sources */,
 				55C7FD771B97782A00B0C093 /* resampler_private_down_FIR.c in Sources */,
@@ -1550,6 +1645,7 @@
 				55C7FD891B97782A00B0C093 /* sort.c in Sources */,
 				55C7FAE71B9777BB00B0C093 /* opus_multistream_encoder.c in Sources */,
 				5530E5411CD338E200071A6D /* opus_compare.c in Sources */,
+				55FD17871E254D7800DA416D /* celt_lpc_sse.c in Sources */,
 				55C7FDA51B97782A00B0C093 /* tables_NLSF_CB_WB.c in Sources */,
 				55C7FC6D1B97782900B0C093 /* vq.c in Sources */,
 				55C7FD1B1B97782A00B0C093 /* scale_copy_vector_FLP.c in Sources */,
@@ -1561,6 +1657,8 @@
 				55C7FDA31B97782A00B0C093 /* tables_NLSF_CB_NB_MB.c in Sources */,
 				55C7FD391B97782A00B0C093 /* interpolate.c in Sources */,
 				55C7FD291B97782A00B0C093 /* warped_autocorrelation_FLP.c in Sources */,
+				55FD17931E254D7800DA416D /* vq_sse2.c in Sources */,
+				55FD178D1E254D7800DA416D /* pitch_sse2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1662,6 +1760,16 @@
 					HAVE_UNISTD_H,
 					STDC_HEADERS,
 				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=i386]" = (
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_PRESUME_SSE2,
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=x86_64]" = (
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_PRESUME_SSE2,
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1669,7 +1777,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				USER_HEADER_SEARCH_PATHS = "../silk ../celt";
+				USER_HEADER_SEARCH_PATHS = "../silk ../celt ..";
 			};
 			name = Debug;
 		};
@@ -1711,6 +1819,16 @@
 					HAVE_UNISTD_H,
 					STDC_HEADERS,
 				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=i386]" = (
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_PRESUME_SSE2,
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=x86_64]" = (
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_PRESUME_SSE2,
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1721,7 +1839,7 @@
 					"$(inherited)",
 					"-falign-loops=16",
 				);
-				USER_HEADER_SEARCH_PATHS = "../silk ../celt";
+				USER_HEADER_SEARCH_PATHS = "../silk ../celt ..";
 			};
 			name = Release;
 		};
