@@ -230,8 +230,6 @@
 		55C7FD001B97782A00B0C093 /* inner_product_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8C1B97782900B0C093 /* inner_product_FLP.c */; };
 		55C7FD011B97782A00B0C093 /* k2a_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8D1B97782900B0C093 /* k2a_FLP.c */; };
 		55C7FD021B97782A00B0C093 /* k2a_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8D1B97782900B0C093 /* k2a_FLP.c */; };
-		55C7FD031B97782A00B0C093 /* levinsondurbin_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8E1B97782900B0C093 /* levinsondurbin_FLP.c */; };
-		55C7FD041B97782A00B0C093 /* levinsondurbin_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8E1B97782900B0C093 /* levinsondurbin_FLP.c */; };
 		55C7FD051B97782A00B0C093 /* LPC_analysis_filter_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8F1B97782900B0C093 /* LPC_analysis_filter_FLP.c */; };
 		55C7FD061B97782A00B0C093 /* LPC_analysis_filter_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB8F1B97782900B0C093 /* LPC_analysis_filter_FLP.c */; };
 		55C7FD071B97782A00B0C093 /* LPC_inv_pred_gain_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB901B97782900B0C093 /* LPC_inv_pred_gain_FLP.c */; };
@@ -246,8 +244,6 @@
 		55C7FD101B97782A00B0C093 /* noise_shape_analysis_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB941B97782900B0C093 /* noise_shape_analysis_FLP.c */; };
 		55C7FD111B97782A00B0C093 /* pitch_analysis_core_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB951B97782900B0C093 /* pitch_analysis_core_FLP.c */; };
 		55C7FD121B97782A00B0C093 /* pitch_analysis_core_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB951B97782900B0C093 /* pitch_analysis_core_FLP.c */; };
-		55C7FD131B97782A00B0C093 /* prefilter_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB961B97782900B0C093 /* prefilter_FLP.c */; };
-		55C7FD141B97782A00B0C093 /* prefilter_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB961B97782900B0C093 /* prefilter_FLP.c */; };
 		55C7FD151B97782A00B0C093 /* process_gains_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB971B97782900B0C093 /* process_gains_FLP.c */; };
 		55C7FD161B97782A00B0C093 /* process_gains_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB971B97782900B0C093 /* process_gains_FLP.c */; };
 		55C7FD171B97782A00B0C093 /* regularize_correlations_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB981B97782900B0C093 /* regularize_correlations_FLP.c */; };
@@ -262,8 +258,6 @@
 		55C7FD201B97782A00B0C093 /* schur_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB9C1B97782900B0C093 /* schur_FLP.c */; };
 		55C7FD211B97782A00B0C093 /* SigProc_FLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C7FB9D1B97782900B0C093 /* SigProc_FLP.h */; };
 		55C7FD221B97782A00B0C093 /* SigProc_FLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C7FB9D1B97782900B0C093 /* SigProc_FLP.h */; };
-		55C7FD231B97782A00B0C093 /* solve_LS_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB9E1B97782900B0C093 /* solve_LS_FLP.c */; };
-		55C7FD241B97782A00B0C093 /* solve_LS_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB9E1B97782900B0C093 /* solve_LS_FLP.c */; };
 		55C7FD251B97782A00B0C093 /* sort_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB9F1B97782900B0C093 /* sort_FLP.c */; };
 		55C7FD261B97782A00B0C093 /* sort_FLP.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FB9F1B97782900B0C093 /* sort_FLP.c */; };
 		55C7FD271B97782A00B0C093 /* structs_FLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C7FBA01B97782900B0C093 /* structs_FLP.h */; };
@@ -408,6 +402,8 @@
 		55C7FDB21B97782A00B0C093 /* VAD.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FBE51B97782900B0C093 /* VAD.c */; };
 		55C7FDB31B97782A00B0C093 /* VQ_WMat_EC.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FBE61B97782900B0C093 /* VQ_WMat_EC.c */; };
 		55C7FDB41B97782A00B0C093 /* VQ_WMat_EC.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C7FBE61B97782900B0C093 /* VQ_WMat_EC.c */; };
+		55FD17651E254A7D00DA416D /* LPC_fit.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17641E254A7D00DA416D /* LPC_fit.c */; };
+		55FD17661E254A7D00DA416D /* LPC_fit.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17641E254A7D00DA416D /* LPC_fit.c */; };
 		8D07F2BE0486CC7A007CD1D0 /* Opus_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* Opus_Prefix.pch */; };
 		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
@@ -575,7 +571,6 @@
 		55C7FB8B1B97782900B0C093 /* find_pred_coefs_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = find_pred_coefs_FLP.c; sourceTree = "<group>"; };
 		55C7FB8C1B97782900B0C093 /* inner_product_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inner_product_FLP.c; sourceTree = "<group>"; };
 		55C7FB8D1B97782900B0C093 /* k2a_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = k2a_FLP.c; sourceTree = "<group>"; };
-		55C7FB8E1B97782900B0C093 /* levinsondurbin_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = levinsondurbin_FLP.c; sourceTree = "<group>"; };
 		55C7FB8F1B97782900B0C093 /* LPC_analysis_filter_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LPC_analysis_filter_FLP.c; sourceTree = "<group>"; };
 		55C7FB901B97782900B0C093 /* LPC_inv_pred_gain_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LPC_inv_pred_gain_FLP.c; sourceTree = "<group>"; };
 		55C7FB911B97782900B0C093 /* LTP_analysis_filter_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LTP_analysis_filter_FLP.c; sourceTree = "<group>"; };
@@ -583,7 +578,6 @@
 		55C7FB931B97782900B0C093 /* main_FLP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main_FLP.h; sourceTree = "<group>"; };
 		55C7FB941B97782900B0C093 /* noise_shape_analysis_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = noise_shape_analysis_FLP.c; sourceTree = "<group>"; };
 		55C7FB951B97782900B0C093 /* pitch_analysis_core_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pitch_analysis_core_FLP.c; sourceTree = "<group>"; };
-		55C7FB961B97782900B0C093 /* prefilter_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prefilter_FLP.c; sourceTree = "<group>"; };
 		55C7FB971B97782900B0C093 /* process_gains_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = process_gains_FLP.c; sourceTree = "<group>"; };
 		55C7FB981B97782900B0C093 /* regularize_correlations_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regularize_correlations_FLP.c; sourceTree = "<group>"; };
 		55C7FB991B97782900B0C093 /* residual_energy_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = residual_energy_FLP.c; sourceTree = "<group>"; };
@@ -591,7 +585,6 @@
 		55C7FB9B1B97782900B0C093 /* scale_vector_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scale_vector_FLP.c; sourceTree = "<group>"; };
 		55C7FB9C1B97782900B0C093 /* schur_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = schur_FLP.c; sourceTree = "<group>"; };
 		55C7FB9D1B97782900B0C093 /* SigProc_FLP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigProc_FLP.h; sourceTree = "<group>"; };
-		55C7FB9E1B97782900B0C093 /* solve_LS_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solve_LS_FLP.c; sourceTree = "<group>"; };
 		55C7FB9F1B97782900B0C093 /* sort_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sort_FLP.c; sourceTree = "<group>"; };
 		55C7FBA01B97782900B0C093 /* structs_FLP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = structs_FLP.h; sourceTree = "<group>"; };
 		55C7FBA11B97782900B0C093 /* warped_autocorrelation_FLP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = warped_autocorrelation_FLP.c; sourceTree = "<group>"; };
@@ -664,6 +657,7 @@
 		55C7FBE41B97782900B0C093 /* typedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typedef.h; sourceTree = "<group>"; };
 		55C7FBE51B97782900B0C093 /* VAD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VAD.c; sourceTree = "<group>"; };
 		55C7FBE61B97782900B0C093 /* VQ_WMat_EC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VQ_WMat_EC.c; sourceTree = "<group>"; };
+		55FD17641E254A7D00DA416D /* LPC_fit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LPC_fit.c; sourceTree = "<group>"; };
 		734FB2E50B18B33E00D561D7 /* libopus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopus.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D07F2C70486CC7A007CD1D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D07F2C80486CC7A007CD1D0 /* Opus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Opus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -895,6 +889,7 @@
 				55C7FBAB1B97782900B0C093 /* log2lin.c */,
 				55C7FBAC1B97782900B0C093 /* LP_variable_cutoff.c */,
 				55C7FBAD1B97782900B0C093 /* LPC_analysis_filter.c */,
+				55FD17641E254A7D00DA416D /* LPC_fit.c */,
 				55C7FBAE1B97782900B0C093 /* LPC_inv_pred_gain.c */,
 				55C7FBAF1B97782900B0C093 /* MacroCount.h */,
 				55C7FBB01B97782900B0C093 /* MacroDebug.h */,
@@ -1017,7 +1012,6 @@
 				55C7FB8B1B97782900B0C093 /* find_pred_coefs_FLP.c */,
 				55C7FB8C1B97782900B0C093 /* inner_product_FLP.c */,
 				55C7FB8D1B97782900B0C093 /* k2a_FLP.c */,
-				55C7FB8E1B97782900B0C093 /* levinsondurbin_FLP.c */,
 				55C7FB8F1B97782900B0C093 /* LPC_analysis_filter_FLP.c */,
 				55C7FB901B97782900B0C093 /* LPC_inv_pred_gain_FLP.c */,
 				55C7FB911B97782900B0C093 /* LTP_analysis_filter_FLP.c */,
@@ -1025,7 +1019,6 @@
 				55C7FB931B97782900B0C093 /* main_FLP.h */,
 				55C7FB941B97782900B0C093 /* noise_shape_analysis_FLP.c */,
 				55C7FB951B97782900B0C093 /* pitch_analysis_core_FLP.c */,
-				55C7FB961B97782900B0C093 /* prefilter_FLP.c */,
 				55C7FB971B97782900B0C093 /* process_gains_FLP.c */,
 				55C7FB981B97782900B0C093 /* regularize_correlations_FLP.c */,
 				55C7FB991B97782900B0C093 /* residual_energy_FLP.c */,
@@ -1033,7 +1026,6 @@
 				55C7FB9B1B97782900B0C093 /* scale_vector_FLP.c */,
 				55C7FB9C1B97782900B0C093 /* schur_FLP.c */,
 				55C7FB9D1B97782900B0C093 /* SigProc_FLP.h */,
-				55C7FB9E1B97782900B0C093 /* solve_LS_FLP.c */,
 				55C7FB9F1B97782900B0C093 /* sort_FLP.c */,
 				55C7FBA01B97782900B0C093 /* structs_FLP.h */,
 				55C7FBA11B97782900B0C093 /* warped_autocorrelation_FLP.c */,
@@ -1317,6 +1309,7 @@
 				55C7FD761B97782A00B0C093 /* resampler_private_AR2.c in Sources */,
 				55C7FCFC1B97782A00B0C093 /* find_pitch_lags_FLP.c in Sources */,
 				55C7FC741B97782900B0C093 /* A2NLSF.c in Sources */,
+				55FD17661E254A7D00DA416D /* LPC_fit.c in Sources */,
 				55C7FDB41B97782A00B0C093 /* VQ_WMat_EC.c in Sources */,
 				55C7FC361B97782900B0C093 /* laplace.c in Sources */,
 				55C7FCB01B97782A00B0C093 /* encode_pulses.c in Sources */,
@@ -1341,10 +1334,8 @@
 				55C7FD2C1B97782A00B0C093 /* wrappers_FLP.c in Sources */,
 				55C7FC9C1B97782A00B0C093 /* decode_core.c in Sources */,
 				55C7FD6E1B97782A00B0C093 /* resampler.c in Sources */,
-				55C7FD141B97782A00B0C093 /* prefilter_FLP.c in Sources */,
 				55C7FD121B97782A00B0C093 /* pitch_analysis_core_FLP.c in Sources */,
 				55C7FD5C1B97782A00B0C093 /* NLSF_VQ_weights_laroia.c in Sources */,
-				55C7FD041B97782A00B0C093 /* levinsondurbin_FLP.c in Sources */,
 				55C7FD9C1B97782A00B0C093 /* table_LSF_cos.c in Sources */,
 				55C7FCFE1B97782A00B0C093 /* find_pred_coefs_FLP.c in Sources */,
 				55C7FC841B97782900B0C093 /* bwexpander.c in Sources */,
@@ -1374,7 +1365,6 @@
 				55C7FD721B97782A00B0C093 /* resampler_down2_3.c in Sources */,
 				55C7FD0C1B97782A00B0C093 /* LTP_scale_ctrl_FLP.c in Sources */,
 				55C7FD161B97782A00B0C093 /* process_gains_FLP.c in Sources */,
-				55C7FD241B97782A00B0C093 /* solve_LS_FLP.c in Sources */,
 				55C7FAD41B9777BB00B0C093 /* mlp_data.c in Sources */,
 				55C7FCA21B97782A00B0C093 /* decode_parameters.c in Sources */,
 				55C7FAE41B9777BB00B0C093 /* opus_encoder.c in Sources */,
@@ -1460,6 +1450,7 @@
 				55C7FD751B97782A00B0C093 /* resampler_private_AR2.c in Sources */,
 				55C7FCFB1B97782A00B0C093 /* find_pitch_lags_FLP.c in Sources */,
 				55C7FC731B97782900B0C093 /* A2NLSF.c in Sources */,
+				55FD17651E254A7D00DA416D /* LPC_fit.c in Sources */,
 				55C7FDB31B97782A00B0C093 /* VQ_WMat_EC.c in Sources */,
 				55C7FC351B97782900B0C093 /* laplace.c in Sources */,
 				55C7FCAF1B97782A00B0C093 /* encode_pulses.c in Sources */,
@@ -1484,10 +1475,8 @@
 				55C7FD2B1B97782A00B0C093 /* wrappers_FLP.c in Sources */,
 				55C7FC9B1B97782A00B0C093 /* decode_core.c in Sources */,
 				55C7FD6D1B97782A00B0C093 /* resampler.c in Sources */,
-				55C7FD131B97782A00B0C093 /* prefilter_FLP.c in Sources */,
 				55C7FD111B97782A00B0C093 /* pitch_analysis_core_FLP.c in Sources */,
 				55C7FD5B1B97782A00B0C093 /* NLSF_VQ_weights_laroia.c in Sources */,
-				55C7FD031B97782A00B0C093 /* levinsondurbin_FLP.c in Sources */,
 				55C7FD9B1B97782A00B0C093 /* table_LSF_cos.c in Sources */,
 				55C7FCFD1B97782A00B0C093 /* find_pred_coefs_FLP.c in Sources */,
 				55C7FC831B97782900B0C093 /* bwexpander.c in Sources */,
@@ -1517,7 +1506,6 @@
 				55C7FD711B97782A00B0C093 /* resampler_down2_3.c in Sources */,
 				55C7FD0B1B97782A00B0C093 /* LTP_scale_ctrl_FLP.c in Sources */,
 				55C7FD151B97782A00B0C093 /* process_gains_FLP.c in Sources */,
-				55C7FD231B97782A00B0C093 /* solve_LS_FLP.c in Sources */,
 				55C7FAD31B9777BB00B0C093 /* mlp_data.c in Sources */,
 				55C7FCA11B97782A00B0C093 /* decode_parameters.c in Sources */,
 				55C7FAE31B9777BB00B0C093 /* opus_encoder.c in Sources */,
