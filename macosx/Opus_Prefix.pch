@@ -1,5 +1,17 @@
 //
-// Prefix header for all source files of the 'Ogg' target in the 'Ogg' project.
+// Prefix header for all source files of the 'Opus' target in the 'Opus' project.
 //
 
-#include <Carbon/Carbon.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <string.h>
+#include <math.h>
+#include <limits.h>
+#include <sys/time.h>
+#if __i386__ || __x86_64__
+#include <xmmintrin.h>
+#include <emmintrin.h>
+#include <smmintrin.h>
+#endif

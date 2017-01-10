@@ -432,7 +432,6 @@
 		55FD17981E254D7800DA416D /* x86cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 55FD17851E254D7800DA416D /* x86cpu.c */; };
 		55FD17991E254D7800DA416D /* x86cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17861E254D7800DA416D /* x86cpu.h */; };
 		55FD179A1E254D7800DA416D /* x86cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD17861E254D7800DA416D /* x86cpu.h */; };
-		8D07F2BE0486CC7A007CD1D0 /* Opus_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* Opus_Prefix.pch */; };
 		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -902,11 +901,13 @@
 		55C7FB421B97782900B0C093 /* silk */ = {
 			isa = PBXGroup;
 			children = (
+				55C7FB461B97782900B0C093 /* arm */,
 				55FD17671E254D3300DA416D /* x86 */,
+				55C7FB641B97782900B0C093 /* fixed */,
+				55C7FB801B97782900B0C093 /* float */,
 				55C7FB431B97782900B0C093 /* A2NLSF.c */,
 				55C7FB441B97782900B0C093 /* ana_filt_bank_1.c */,
 				55C7FB451B97782900B0C093 /* API.h */,
-				55C7FB461B97782900B0C093 /* arm */,
 				55C7FB4B1B97782900B0C093 /* biquad_alt.c */,
 				55C7FB4C1B97782900B0C093 /* bwexpander.c */,
 				55C7FB4D1B97782900B0C093 /* bwexpander_32.c */,
@@ -932,8 +933,6 @@
 				55C7FB611B97782900B0C093 /* encode_indices.c */,
 				55C7FB621B97782900B0C093 /* encode_pulses.c */,
 				55C7FB631B97782900B0C093 /* errors.h */,
-				55C7FB641B97782900B0C093 /* fixed */,
-				55C7FB801B97782900B0C093 /* float */,
 				55C7FBA31B97782900B0C093 /* gain_quant.c */,
 				55C7FBA41B97782900B0C093 /* HP_variable_cutoff.c */,
 				55C7FBA51B97782900B0C093 /* init_decoder.c */,
@@ -1267,7 +1266,6 @@
 				55C7FBE71B97782900B0C093 /* _kiss_fft_guts.h in Headers */,
 				55C7FD731B97782A00B0C093 /* resampler_private.h in Headers */,
 				55C7FAEB1B9777BB00B0C093 /* opus_private.h in Headers */,
-				8D07F2BE0486CC7A007CD1D0 /* Opus_Prefix.pch in Headers */,
 				55C7FC591B97782900B0C093 /* static_modes_fixed.h in Headers */,
 				55C7FDAF1B97782A00B0C093 /* typedef.h in Headers */,
 				55C7FAD71B9777BB00B0C093 /* mlp_train.h in Headers */,
@@ -1759,15 +1757,20 @@
 					HAVE_STRING_H,
 					HAVE_UNISTD_H,
 					STDC_HEADERS,
+					OPUS_HAVE_RTCD,
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=i386]" = (
-					OPUS_X86_MAY_HAVE_SSE4_1,
 					OPUS_X86_PRESUME_SSE2,
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_MAY_HAVE_AVX,
+					CPU_INFO_BY_C,
 					"$(inherited)",
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=x86_64]" = (
-					OPUS_X86_MAY_HAVE_SSE4_1,
 					OPUS_X86_PRESUME_SSE2,
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_MAY_HAVE_AVX,
+					CPU_INFO_BY_C,
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1818,15 +1821,20 @@
 					HAVE_STRING_H,
 					HAVE_UNISTD_H,
 					STDC_HEADERS,
+					OPUS_HAVE_RTCD,
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=i386]" = (
-					OPUS_X86_MAY_HAVE_SSE4_1,
 					OPUS_X86_PRESUME_SSE2,
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_MAY_HAVE_AVX,
+					CPU_INFO_BY_C,
 					"$(inherited)",
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=x86_64]" = (
-					OPUS_X86_MAY_HAVE_SSE4_1,
 					OPUS_X86_PRESUME_SSE2,
+					OPUS_X86_MAY_HAVE_SSE4_1,
+					OPUS_X86_MAY_HAVE_AVX,
+					CPU_INFO_BY_C,
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
